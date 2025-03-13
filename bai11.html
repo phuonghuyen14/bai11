@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Box</title>
+<style>
+    .container {
+            width: 300px;
+            border: 1px solid rgb(180, 183, 185);
+            margin: 50px;
+            box-shadow: 3px 3px 2px 2px; color: rgb(126, 122, 122);
+        }
+        .image-box {
+            width: 100%;
+            height: 100px;
+            background-color: #3af8ff;
+            position: relative;
+        }
+        .image-box span {
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: aliceblue;
+            font-weight: bold;
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .text-box1  {
+            background-color: #fbfaf9;
+            padding: 4px;
+            text-align: justify;
+            color: #030303;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 10px;
+        }
+        .text-box2  {
+            background-color: #fbfaf9;
+            text-align: justify;
+            color: hwb(0 3% 97%);
+            padding: 5px;
+        }
+</style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="image-box">
+                <span>HỌC HTML</span>
+            </div>
+            <div class="text-box1">
+                    <strong> Ngôn ngữ đánh dấu siêu văn bản</strong>
+            </div>
+            <div class="text-box2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sequi eos quis id eius cumque, ut vel, totam quae nostrum deserunt quaerat nisi labore illo aut inventore. Rem, incidunt ducimus!
+            </div>
+        </div>
+        <div class="container"> 
+            <div class="image-box">
+                <span>HỌC CSS</span>
+            </div>
+            <div class="text-box1">
+                <strong> Ngôn ngữ định dạng lại các phần tử được tạo ra bởi HTML</strong>
+        </div>
+        <div class="text-box2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum laboriosam deserunt reiciendis maiores officia unde a, similique iusto harum voluptatibus, accusantium sequi officiis tenetur eum, sit distinctio? Impedit, dicta aliquam.
+        </div>
+     </div>    
+    </body>
+</html>
